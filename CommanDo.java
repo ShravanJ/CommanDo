@@ -40,6 +40,15 @@ public class CommanDo
 					System.out.println(output);
 				}
 
+				if (input.contains("clear"))
+				{
+					for(int x = 0; x < 30; x++)
+					{
+						System.out.println();
+					}
+					System.out.println("CommanDo -  a command line interpreter fo Java");
+				}
+
 			}
 			else
 			{
