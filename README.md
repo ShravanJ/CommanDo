@@ -3,7 +3,7 @@ CommanDo
 
 a command line java interpreter
 
-[logo]: http://upload.wikimedia.org/wikipedia/en/1/1d/Commando-Matrix-Firing_Rocket_Launcher.png
+![alt text] (http://upload.wikimedia.org/wikipedia/en/1/1d/Commando-Matrix-Firing_Rocket_Launcher.png)
 
 USAGE
 ========
