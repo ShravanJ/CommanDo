@@ -9,4 +9,5 @@ USAGE
 current list of commands:
 
 print - displays/prints inputted data
+
 exit - exit the program
