@@ -26,13 +26,12 @@ public class CommanDo
 			if (scan.hasNext())
 			{
 				String input = scan.nextLine();
-				if (input.equalsIgnoreCase("exit"))
+				if (input.indexOf("exit") == 0)
 				{
 					validInput = false;
 				}
-				
 
-				if (input.contains("print"))
+				if (input.indexOf("print") == 0)
 				{
 					String output = input;
 					String regex = "\\s*\\bprint\\b\\s*";
@@ -40,13 +39,67 @@ public class CommanDo
 					System.out.println(output);
 				}
 
-				if (input.contains("clear"))
+				if (input.indexOf("clear") == 0)
 				{
 					for(int x = 0; x < 30; x++)
 					{
 						System.out.println();
 					}
 					System.out.println("CommanDo -  a command line interpreter fo Java");
+				}
+
+				if(input.indexOf("loopcount++") == 0)
+				{
+					System.out.print("Define starting value (integer): ");
+					int startInt = scan.nextInt();
+					System.out.print("Define operator (>, <, =, >=, <=): ");
+					input = scan.next();
+					System.out.print("Define arguement (integer): ");
+					int argInt = scan.nextInt();
+
+					if (input.indexOf(">") == 0)
+					{
+						
+						while (startInt > argInt)
+						{
+							argInt++;
+							System.out.println(argInt);
+
+						}
+					}
+					if (input.indexOf("<") == 0)
+					{
+						while (startInt < argInt)
+						{
+							argInt++;
+							System.out.println(argInt);
+						}
+					}
+					if (input.indexOf("=") == 0)
+					{
+						while (startInt == argInt)
+						{
+							argInt++;
+							System.out.println(argInt);
+						}
+					}
+					if (input.indexOf(">=") == 0)
+					{
+						while (startInt >= argInt)
+						{
+							argInt++;
+							System.out.println(argInt);
+						}
+					}
+					if (input.indexOf("<=") == 0)
+					{
+						while (startInt <= argInt)
+						{
+							argInt++;
+							System.out.println(argInt);
+						}
+					}
+
 				}
 
 			}
