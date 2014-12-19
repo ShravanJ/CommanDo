@@ -12,6 +12,8 @@ current list of commands:
 
 print - displays/prints inputted data
 
+loopcount++ - while loop for count++ operation
+
 clear - clears the cli window
 
 exit - exit the program
