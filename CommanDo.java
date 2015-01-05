@@ -1,6 +1,6 @@
 /**CommanDo -  a command line interpreter for Java
 *@author Shravan Jambukesan
-*Copyright 2014 Core Development
+*Copyright 2014-2015 Core Development
 */
 
 import java.util.Scanner;
