@@ -6,7 +6,7 @@ CommanDo
 a command line java interpreter
 USAGE
 ========
-![alt text] (http://files.shravan.ml/img/screenshot.png)
+![alt text] (http://shravanj.noip.me/files/img/screenshot.png)
 
 current list of commands:
 
