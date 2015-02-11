@@ -17,3 +17,7 @@ loopcount++ - while loop for count++ operation
 clear - clears the cli window
 
 exit - exit the program
+
+***Updates Coming Soon***
+=========================
+The current implementation is trash. Expect a nearly full rewrite coming soon as CommanDo 2. 
