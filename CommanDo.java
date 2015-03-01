@@ -14,7 +14,10 @@ public class CommanDo
 
 		
 
-		System.out.println("CommanDo - a command line interpreter for Java");
+		System.out.println("CommanDo - a command line interpreter for Java. Version 1.1");
+		System.out.println("Did you know that CommanDo 2 is now available?");
+		System.out.println("It features better handling with proper functions, greatly improved syntax, and is much easier to modify");
+		System.out.println("Get it now at https://github.com/ShravanJ/CommanDo2");
 		boolean validInput = true;
 
 		while (validInput)
