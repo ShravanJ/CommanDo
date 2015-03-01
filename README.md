@@ -18,6 +18,8 @@ clear - clears the cli window
 
 exit - exit the program
 
-***Updates Coming Soon***
+***THE UPDATES HAVE COME!!***
 =========================
-The current implementation is trash. Expect a nearly full rewrite coming soon as CommanDo 2. 
+AYY COMMANDO 2 IS OUT!
+
+
